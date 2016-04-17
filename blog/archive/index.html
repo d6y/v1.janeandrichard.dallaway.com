@@ -7,7 +7,7 @@
 <link type="text/css" href="../../css/layout.css" rel="stylesheet" title="house style">
 </head>
 <body>
-<form action="http://localhost:8080/spindle.jsp" class="nav">
+<form action="/spindle.jsp" class="nav">
 <img alt="Welcome to janeandrichard.co.uk" height="34" width="361" src="../../slice.jpg"><br>
 <a href="../../index.html" class="nav">Home</a> &nbsp;&nbsp; <a href="../../contact/index.html" class="nav">Contact</a> &nbsp;&nbsp;<input name="query" size="25" type="text" class="nav"><input value="Find" type="submit" class="nav">
 </form>
@@ -44,7 +44,7 @@ urchinTracker();
 	{
 		$year = substr($filename,0,4);
 		$month = substr($filename,5,2);
-    	Print("<li><a href="http://localhost:8080/blog/archive/\&quot;&quot;.$filename.&quot;\&quot;">".$months[ $month - 1]." ".$year."</a></li>");
+    	Print("<li><a href="/blog/archive/\&quot;&quot;.$filename.&quot;\&quot;">".$months[ $month - 1]." ".$year."</a></li>");
 	}
 	 	
 ?>
