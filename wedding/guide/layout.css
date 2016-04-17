@@ -1,0 +1,52 @@
+BODY
+{
+    COLOR: black;
+    FONT-FAMILY: Helvetica, Arial, Sans;
+    FONT-SIZE: 10pt;
+    margin: 4px;
+}
+
+
+P
+{
+    COLOR: black;
+    FONT-FAMILY: Helvetica, Arial, Sans;
+    FONT-SIZE: 10pt;
+}
+
+.mainTitle
+{
+	COLOR: white;
+    	FONT-FAMILY: Helvetica, Arial, Sans;
+    	FONT-SIZE: 24pt;
+	
+}
+
+A
+{
+	font-family:Helvetica, Arial, Sans;
+	color: #003300;
+}
+
+H1
+{
+	font-family: Helvetica, Arial, Sans
+	Font-size: 14pt;
+}
+
+UL
+{
+    COLOR: black;
+    FONT-FAMILY: Helvetica, Arial, Sans;
+    FONT-SIZE: 10pt;
+    margin: 4px;
+}
+
+LI
+{
+    COLOR: black;
+    FONT-FAMILY: Helvetica, Arial, Sans;
+    FONT-SIZE: 10pt;
+    margin: 4px;
+
+}

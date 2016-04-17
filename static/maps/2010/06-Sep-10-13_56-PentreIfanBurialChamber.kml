@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml version="1.0" creator="Ascent 1.11.4" xmlns="http://earth.google.com/kml/2.1">
+    <Document>
+        <name>Ascent activity on 06-Sep-10 at 01:56PM</name>
+        <open>1</open>
+        <Style id="AscentLineStyle">
+            <LineStyle>
+                <color>ff0000f9</color>
+                <width>4</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>ff0000f9</color>
+            </PolyStyle>
+        </Style>
+        <Style id="AscentMarkerStyle">
+            <PolyStyle>
+                <color>ffff3c00</color>
+            </PolyStyle>
+            <LineStyle>
+                <color>ffff3c00</color>
+            </LineStyle>
+            <LableStyle>
+                <color>ffff3c00</color>
+            </LableStyle>
+            <IconStyle>
+                <color>ffff3c00</color>
+            </IconStyle>
+        </Style>
+        <Style id="AscentLapStyle">
+            <PolyStyle>
+                <color>ff00e4e4</color>
+            </PolyStyle>
+            <LineStyle>
+                <color>ff00e4e4</color>
+            </LineStyle>
+            <LableStyle>
+                <color>ff00e4e4</color>
+            </LableStyle>
+            <IconStyle>
+                <color>ff00e4e4</color>
+            </IconStyle>
+        </Style>
+        <Placemark>
+            <styleUrl>#AscentLineStyle</styleUrl>
+            <name>19</name>
+            <LineString>
+                <extrude>0</extrude>
+                <tessellate>1</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates> -4.767789, 51.999458,0  -4.767762, 51.999256,0  -4.767699, 51.999187,0  -4.767764, 51.999245,0  -4.767787, 51.999229,0  -4.767869, 51.999241,0  -4.768023, 51.999245,0  -4.768184, 51.999233,0  -4.768238, 51.999210,0  -4.768370, 51.999199,0  -4.768434, 51.999184,0  -4.768493, 51.999187,0  -4.768558, 51.999168,0  -4.768704, 51.999157,0  -4.768886, 51.999111,0  -4.769093, 51.999073,0  -4.769200, 51.999050,0  -4.769212, 51.999046,0  -4.769232, 51.999043,0  -4.769352, 51.999058,0  -4.769440, 51.999069,0  -4.769559, 51.999084,0  -4.769697, 51.999077,0  -4.769788, 51.999077,0  -4.769832, 51.999077,0  -4.769836, 51.999111,0  -4.769790, 51.999084,0  -4.769801, 51.999069,0  -4.769801, 51.999069,0  -4.769823, 51.999081,0  -4.769887, 51.999062,0  -4.769891, 51.999016,0  -4.769892, 51.999012,0  -4.770019, 51.999020,0  -4.770085, 51.998981,0  -4.770124, 51.998966,0  -4.770118, 51.998970,0  -4.770038, 51.998993,0  -4.769988, 51.998989,0  -4.769956, 51.999008,0  -4.769925, 51.999020,0  -4.769946, 51.999020,0  -4.769975, 51.998997,0  -4.770002, 51.998959,0  -4.769997, 51.998955,0  -4.769988, 51.998955,0  -4.770024, 51.998947,0  -4.769995, 51.998943,0  -4.769929, 51.998955,0  -4.769806, 51.998993,0  -4.769678, 51.999046,0  -4.769546, 51.999077,0  -4.769455, 51.999069,0  -4.769453, 51.999073,0  -4.769450, 51.999077,0  -4.769401, 51.999058,0  -4.769397, 51.999058,0  -4.769231, 51.999081,0  -4.769085, 51.999084,0  -4.768965, 51.999100,0  -4.768744, 51.999107,0  -4.768586, 51.999100,0  -4.768430, 51.999104,0  -4.768198, 51.999134,0  -4.767976, 51.999153,0  -4.767842, 51.999123,0  -4.767770, 51.999126,0  -4.767761, 51.999126,0  -4.767762, 51.999119,0  -4.767764, 51.999111,0 </coordinates>
+            </LineString>
+        </Placemark>
+        <Folder>
+            <name>Laps</name>
+            <open>1</open>
+            <Placemark>
+                <styleUrl>#AscentLapStyle</styleUrl>
+                <name>Lap 1</name>
+                <description>Lap start at 13:56</description>
+                <Point>
+                    <coordinates> -4.767789, 51.999458,0 </coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

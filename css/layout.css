@@ -1,0 +1,176 @@
+BODY
+{
+    COLOR: black;
+    FONT-FAMILY: "Trebuchet MS", Tahoma, Verdana, helvetica, Arial, Sans;
+    FONT-SIZE: 10pt;
+    background-color: white;
+
+}
+
+.error
+{
+	color: red;
+}
+
+.home-header
+{
+	FONT-SIZE: 12pt;
+	FONT-WEIGHT: bold;
+	color: #17410C;
+}
+
+.nav
+{
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: normal;
+	color: #17410C;
+
+}
+
+.copyright
+{
+	margin-top: 15pt;
+	FONT-SIZE: 7pt;
+	FONT-WEIGHT: normal;
+	color: #17410C;
+
+}
+
+.orient
+{
+	BACKGROUND-COLOR: #ffffff ;
+    COLOR: gray;
+	FONT-SIZE: 8pt;
+}
+
+LI
+{
+	margin-top: 10pt;
+}
+
+H1
+{
+	FONT-SIZE: 12pt;
+	FONT-WEIGHT: bold;
+	margin-bottom: 0pt;
+	margin-top: 10pt;
+	color: #17410C;
+}
+
+H2
+{
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+	margin-bottom: 0pt;
+	margin-top: 10pt;
+	color: #17410C;
+}
+
+.travellogueheader
+{
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+	color: #17410C;
+}
+
+.travelloguedate
+{
+	FONT-SIZE: 10pt;
+	FONT-STYLE: italic;
+}
+
+A
+{
+	color: #549243;
+}
+
+.blogline
+{
+	color: #549243;
+}
+
+.new
+{
+	FONT-SIZE: 10pt;
+	FONT-STYLE: italic;
+	color: red
+}
+
+.PlaceName
+{
+	FONT-SIZE: 10pt;
+	FONT-STYLE: bold;
+	color: #28571C;
+}
+
+TD
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, helvetica, Arial, Sans;
+    FONT-SIZE: 10pt;
+}
+
+.comment
+{
+    COLOR: #549243;
+    FONT-FAMILY: Verdana, helvetica, Arial, Sans;
+    FONT-STYLE: italic;
+    FONT-SIZE: 10pt;
+}
+
+.booktitle
+{
+    COLOR: green;
+    FONT-FAMILY: Verdana, helvetica, Arial, Sans;
+    FONT-STYLE: BOLD;
+    FONT-SIZE: 10pt;
+}
+
+.buy
+{
+    COLOR: red;
+    FONT-FAMILY: Verdana, helvetica, Arial, Sans;
+    FONT-SIZE: 9pt;
+}
+
+.explanation
+{
+	FONT-SIZE: 8pt;
+	FONT-WEIGHT: italic;
+	COLOR: #28571C;
+}
+
+.caption
+{
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	color: #17410C;
+}
+
+B
+{
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	color: #17410C;
+}
+
+TH
+{
+	Text-align: left;
+	FONT-SIZE:10pt;
+	color: #17410C;
+}
+
+img.gallery
+{
+	color: #000000;
+	border-width: 8px;
+	border-height: 8px;
+	border-style: solid;
+}
+
+/* honey  */
+input.subject
+{
+	display:none
+}

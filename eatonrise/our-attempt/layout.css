@@ -1,0 +1,73 @@
+BODY
+{
+    COLOR: black;
+    FONT-FAMILY: "Trebuchet MS", Tahoma, Verdana, helvetica, Arial, Sans;
+    FONT-SIZE: 10pt;
+
+}
+
+
+P
+{
+    FONT-FAMILY: "Trebuchet MS", Tahoma, Verdana, helvetica, Arial, Sans;
+    FONT-SIZE: 10pt;
+}
+.home-header
+{
+	FONT-SIZE: 12pt;
+	FONT-WEIGHT: bold;
+	color: #17410C;
+}
+
+
+
+.nav
+{
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: normal;
+	color: #17410C;
+
+}
+
+LI
+{
+	margin-top: 10pt;
+}
+
+H1
+{
+	FONT-SIZE: 16pt;
+	FONT-WEIGHT: bold;
+	margin-bottom: 10pt;
+	margin-top: 10pt;
+	color: #000000;
+}
+
+H2
+{
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+	margin-bottom: 0pt;
+	margin-top: 10pt;
+	color: #17410C;
+}
+
+
+A
+{
+}
+
+
+TD
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana, helvetica, Arial, Sans;
+    FONT-SIZE: 10pt;
+}
+
+
+B
+{
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+}

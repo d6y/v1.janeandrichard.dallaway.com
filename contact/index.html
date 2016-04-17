@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>janeandrichard.co.uk - contact us</title>
+<LINK TITLE="Style" REL=STYLESHEET HREF="../css/layout.css" TYPE="text/css">
+<META NAME="Description" content="JaneandRichard.co.uk - contact page">
+<META NAME="Keywords" content="travelogue, travelogues, travel, report, reports, travel report, Brittany, Normandy, France, camping, New Zealand, Auckland, Wellington, Maldives, Biyadoo, cornwall, britain, scotland, hungary, lake balaton, eclipse, iceland, reykjavik, wales, malta, new england, usa, france, snowboarding, les arcs, walking ,photos, travel photography, travel photos">
+</head>
+<body>
+<!--#include virtual="/nav.html" -->
+<script type="text/javascript" src="validate.js"></script>
+
+
+<h1>Contact us</h1>
+
+
+<form action="http://localhost:8080/sendmail" method="post">
+
+<input type="hidden" name="redirect" value="http://www.janeandrichard.co.uk/contact/thanks.html" />
+<input type="hidden" name="subject" value="POST: Message from janeandrichard.co.uk" />
+<input type="hidden" name="ignore-field" value="ignore-field" />
+<input type="hidden" name="ignore-field" value="redirect" />
+<input type="hidden" name="ignore-field" value="submit" />
+<input type="hidden" name="ignore-field" value="email" />
+<input type="hidden" name="ignore-field" value="subject" />
+
+
+<table border="0">
+<tr valign="top"><td valign="top" align="right">Your email address:</td><td><input type="text" size="60" name="email" /></td></tr>
+<tr valign="top"><td valign="top" align="right">Your message:</td><td><textarea name="message" rows="20" cols="60"></textarea></td></tr>
+<tr><td>&nbsp;</td><td><input class="subject" name="title" size="50" value="" /></div>
+<input type="submit" value="Send Message" onclick="return ValidateContact(this.form)" />
+<!-- <tr><td>&nbsp;</td><td><input type="submit" value="send"/>-->
+</td></tr>
+</table>	
+
+
+</form>
+
+
+</body>
+</html>
+

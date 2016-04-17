@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link type="text/css" href="http://www.janeandrichard.co.uk/css/layout.css" rel="stylesheet" title="Style" />
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<title>Jane and Richard - travels</title>
+<script
+	src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAALN97IV_yppCeYrTuxa-SBhRnvNQuoq0yn8tVt5U2smc_0vZSqhQG7OKCa0L-VIxuuOpyDRq-A9aqQQ"
+	type="text/javascript"></script>
+<script type="text/javascript" src="http://www.janeandrichard.co.uk/travel/map.js"></script>
+<script type="text/javascript" src="http://www.janeandrichard.co.uk/travel/travelindex.xml?style=travelindex.xsl&mimeType=application/x-javascript"></script>
+
+</head>
+<body onunload="GUnload()" onload="load()">
+<form action="http://localhost:8080/spindle.jsp" class="nav">
+<img alt="Welcome to janeandrichard.co.uk" height="34" width="361" src="../slice.jpg" />
+<br />
+<a href="../index.html" class="nav">Home</a> &nbsp;&nbsp; <a href="../contact/index.html" class="nav">Contact</a> &nbsp;&nbsp;<input name="query" size="25" type="text" class="nav" />
+<input value="Find" type="submit" class="nav" />
+</form>
+<div>
+	<h1>Travels</h1>
+	<div style="width: 550px; height: 500px; border:3px groove;" id="map">
+	</div>
+	<div id="content" style="clear:both">View the <a href="travelindex.xml.html">text version</a>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Jane and Richard's yak and natter</title>
+<meta content="janeandrichard, ya, natter, blog" name="keywords">
+<meta content="janeandrichard.co.uk - yak and natter blog" name="description">
+<link type="text/css" href="../../css/layout.css" rel="stylesheet" title="house style">
+</head>
+<body>
+<form action="http://localhost:8080/spindle.jsp" class="nav">
+<img alt="Welcome to janeandrichard.co.uk" height="34" width="361" src="../../slice.jpg"><br>
+<a href="../../index.html" class="nav">Home</a> &nbsp;&nbsp; <a href="../../contact/index.html" class="nav">Contact</a> &nbsp;&nbsp;<input name="query" size="25" type="text" class="nav"><input value="Find" type="submit" class="nav">
+</form>
+<script type="text/javascript" src="http://www.google-analytics.com/urchin.js"></script>
+<script type="text/javascript">
+_uacct = "UA-3204081-1";
+urchinTracker();
+</script>
+<span class="travellogueheader">Archives</span>
+<ul>
+<?php
+	$dir = ".";
+	$files = array();
+	$months = array('January','February','March','April','May','June','July','August','September','October','November','December');
+	
+	 if (is_dir($dir))
+	 {
+		 if ($dh=opendir($dir))
+		 {
+			  while (($file=readdir($dh)))
+			  {	
+		  			if (strpos($file,"_index") > 0)
+		  			{
+		  				$files[] = $file;		  						  			
+		  			}
+			  }
+		 }
+	 }
+
+	sort($files,SORT_STRING);
+	$files = array_reverse($files); // latest at the top
+
+	foreach ($files as $filename) 
+	{
+		$year = substr($filename,0,4);
+		$month = substr($filename,5,2);
+    	Print("<li><a href="http://localhost:8080/blog/archive/\&quot;&quot;.$filename.&quot;\&quot;">".$months[ $month - 1]." ".$year."</a></li>");
+	}
+	 	
+?>
+</ul>
+<br>
+<br>
+<h2>Behind the scenes...</h2>
+<table cellpadding="4" border="0">
+<tr>
+<td><a href="http://www.blogger.com"><img alt="This page is powered by Blogger. Isn't yours?" border="0" src="../partners/bloggerbutton1.gif" height="31" width="88"></a></td><td>Blogger's the interface that allows us to write blogs.  We can write them from anyplace and blogger sends them to this server.</td>
+</tr>
+<tr>
+<td><a href="http://php.net/">PHP</a> and <a href="http://www.mysql.com">MySQL</a></td><td>The <i>Add a comment</i> link was coded using PHP and
+		the comments are stored in a MySQL database.</td>
+</tr>
+<tr>
+<td><b>Presentation</b></td><td>Our blogs are stored in XML and converted to HTML by XSL-T using <a href="http://xml.apache.org">Xalan</a>.</td>
+</tr>
+</table>
+</body>
+</html>
